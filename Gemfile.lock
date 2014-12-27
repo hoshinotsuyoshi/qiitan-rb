@@ -60,9 +60,13 @@ GEM
       faraday
       faraday_middleware
       ruboty
+    ruboty-mpush (0.0.0)
+      ruboty
     ruboty-redis (0.0.5)
       redis
       redis-namespace
+      ruboty
+    ruboty-ruby_eval (0.0.0)
       ruboty
     ruboty-slack (0.1.7)
       ruboty (>= 1.0.4)
@@ -91,6 +95,8 @@ DEPENDENCIES
   ruboty-github
   ruboty-google_image
   ruboty-lgtm
+  ruboty-mpush
   ruboty-redis
+  ruboty-ruby_eval
   ruboty-slack
   ruboty-talk
