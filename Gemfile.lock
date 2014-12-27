@@ -1,3 +1,9 @@
+PATH
+  remote: ruboty-local_pstore
+  specs:
+    ruboty-local_pstore (0.0.0)
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -31,9 +37,6 @@ GEM
       sawyer (~> 0.6.0, >= 0.5.3)
     rack (1.5.2)
     rake (10.3.2)
-    redis (3.1.0)
-    redis-namespace (1.5.1)
-      redis (~> 3.0, >= 3.0.4)
     ruboty (1.1.2)
       activesupport
       bundler
@@ -61,10 +64,6 @@ GEM
       faraday_middleware
       ruboty
     ruboty-mpush (0.0.0)
-      ruboty
-    ruboty-redis (0.0.5)
-      redis
-      redis-namespace
       ruboty
     ruboty-ruby_eval (0.0.0)
       ruboty
@@ -95,8 +94,8 @@ DEPENDENCIES
   ruboty-github
   ruboty-google_image
   ruboty-lgtm
+  ruboty-local_pstore!
   ruboty-mpush
-  ruboty-redis
   ruboty-ruby_eval
   ruboty-slack
   ruboty-talk
